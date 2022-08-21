@@ -2,7 +2,7 @@ while True:
   height=float(input('please enter your hieght(m):'))
   weight=float(input('please enter your wieght(Kg):'))
   BMI=(weight/(height**2))
-  if(16<BMI<18.5):
+  if(16<=BMI<18.5):
     print('your BMI is:',BMI,'you need to gain your weight. :))')
     break
   elif (18.5<= BMI <24):
